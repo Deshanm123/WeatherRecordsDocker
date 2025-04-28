@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using WeatherRecords.Data;
+using WeatherWebRecords.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -21,15 +22,6 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=WeatherRecord}/{action=GetWeatherRecords}"
-);
-//app.UseHttpsRedirection();
-// app.MapControllerRoute(
-//         name:"default",
-//         pattern:"{controller=WeatherRecord}/{action=GetWeatherRecords}"
-// );
-
 app.MapControllers();
+
 app.Run();

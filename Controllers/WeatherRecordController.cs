@@ -1,13 +1,14 @@
 using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection.Emit;
 using WeatherRecords.Data;
 using WeatherWebRecords.Models;
 
-namespace WeatherWebRecords.Contollers
+namespace WeatherWebRecords.Controllers
 { 
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherRecordController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -16,8 +17,8 @@ namespace WeatherWebRecords.Contollers
             _context = context;
         }
 
-        [HttpGet("GetWeatherRecord")]
-        [Route("/WeatherRecord/GetWeatherRecord/{id}")]
+        [HttpGet]
+        [Route("/GetWeatherRecord/{id}")]
         public IActionResult GetWeatherRecord(int id)
         {
             WeatherRecord? record = _context.WeatherRecords.ToList().Find(rec => rec.Id==id);
@@ -26,8 +27,8 @@ namespace WeatherWebRecords.Contollers
             return BadRequest(id);
         }
 
-        [HttpGet("WeatherRecords")]
-        [Route("/WeatherRecord/GetWeatherRecords")]
+        [HttpGet]
+        [Route("/GetWeatherRecords")]
         public IActionResult GetWeatherRecords()
         {
             List<WeatherRecord> records = _context.WeatherRecords.ToList();

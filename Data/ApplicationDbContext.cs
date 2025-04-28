@@ -7,12 +7,14 @@ public class ApplicationDbContext : DbContext
 {
     public ApplicationDbContext(DbContextOptions options) : base(options)
     {
-
+       // this.Database.EnsureCreatedAsync();
     }
     public DbSet<WeatherRecord> WeatherRecords {get;set;}
-    
+
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+       
         List<WeatherRecord> wr = new List<WeatherRecord>()
         {
             //EventType = "Earthquake"

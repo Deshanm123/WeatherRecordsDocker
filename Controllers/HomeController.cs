@@ -1,12 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace WeatherWebRecords.Contollers
+namespace WeatherWebRecords.Controllers
 {
     [ApiController]
+    [Route("api/[controller]")]
     public class HomeController : ControllerBase
     {
-        [HttpGet]
-        [Route("/Home/Index")]
+        [HttpGet("Index")]
         public IActionResult Index()
         {
             return Ok("Web is Running");
