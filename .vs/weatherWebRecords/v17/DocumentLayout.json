@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{90CC3694-767A-97C5-5AD9-CD0138C4BB11}|weatherWebRecords.csproj|d:\\git\\docker_demo\\weatherwebrecordsapi\\weatherwebrecords\\controllers\\weatherrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CC3694-767A-97C5-5AD9-CD0138C4BB11}|weatherWebRecords.csproj|solutionrelative:controllers\\weatherrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CC3694-767A-97C5-5AD9-CD0138C4BB11}|weatherWebRecords.csproj|d:\\git\\docker_demo\\weatherwebrecordsapi\\weatherwebrecords\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CC3694-767A-97C5-5AD9-CD0138C4BB11}|weatherWebRecords.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{90CC3694-767A-97C5-5AD9-CD0138C4BB11}|weatherWebRecords.csproj|d:\\git\\docker_demo\\weatherwebrecordsapi\\weatherwebrecords\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90CC3694-767A-97C5-5AD9-CD0138C4BB11}|weatherWebRecords.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{90CC3694-767A-97C5-5AD9-CD0138C4BB11}|weatherWebRecords.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90CC3694-767A-97C5-5AD9-CD0138C4BB11}|weatherWebRecords.csproj|d:\\git\\docker_demo\\weatherwebrecordsapi\\weatherwebrecords\\controllers\\weatherrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90CC3694-767A-97C5-5AD9-CD0138C4BB11}|weatherWebRecords.csproj|solutionrelative:controllers\\weatherrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{90CC3694-767A-97C5-5AD9-CD0138C4BB11}|weatherWebRecords.csproj|d:\\git\\docker_demo\\weatherwebrecordsapi\\weatherwebrecords\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{90CC3694-767A-97C5-5AD9-CD0138C4BB11}|weatherWebRecords.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90CC3694-767A-97C5-5AD9-CD0138C4BB11}|weatherWebRecords.csproj|d:\\git\\docker_demo\\weatherwebrecordsapi\\weatherwebrecords\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90CC3694-767A-97C5-5AD9-CD0138C4BB11}|weatherWebRecords.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,69 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-27T19:16:14.292Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WeatherRecordController.cs",
+              "DocumentMoniker": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\Controllers\\WeatherRecordController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherRecordController.cs",
+              "ToolTip": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\Controllers\\WeatherRecordController.cs",
+              "RelativeToolTip": "Controllers\\WeatherRecordController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAtwCEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T16:08:29.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T16:18:33.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T16:13:26.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIA3wCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:20:41.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -51,71 +113,6 @@
               "ViewState": "AgIAAAIAAAAAAAAAAAAqwAcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T22:36:25.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-27T19:16:14.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WeatherRecordController.cs",
-              "DocumentMoniker": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\Controllers\\WeatherRecordController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherRecordController.cs",
-              "ToolTip": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\Controllers\\WeatherRecordController.cs",
-              "RelativeToolTip": "Controllers\\WeatherRecordController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAywBIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T16:08:29.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-23T16:18:33.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-23T16:13:26.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\git\\Docker_Demo\\WeatherWebRecordsApi\\weatherWebRecords\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAADgvyIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T19:20:41.743Z",
               "EditorCaption": ""
             }
           ]

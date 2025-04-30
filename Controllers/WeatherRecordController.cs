@@ -18,18 +18,17 @@ namespace WeatherWebRecords.Controllers
         }
 
         [HttpGet]
-        [Route("/GetWeatherRecord/{id}")]
+        [Route("GetRecord/{id}")]
         public IActionResult GetWeatherRecord(int id)
         {
-            WeatherRecord? record = _context.WeatherRecords.ToList().Find(rec => rec.Id==id);
+            WeatherRecord? record = _context.WeatherRecords.FirstOrDefault(rec => rec.Id == id);
             if(record != null) 
-                return Ok("Working");
-            return BadRequest(id);
+                return Ok(record);
+            return BadRequest("Invalid Record Request");
         }
 
-        [HttpGet]
-        [Route("/GetWeatherRecords")]
-        public IActionResult GetWeatherRecords()
+        [HttpGet("GetRecords")]
+        public IActionResult GetRecords()
         {
             List<WeatherRecord> records = _context.WeatherRecords.ToList();
             return Ok(records);
